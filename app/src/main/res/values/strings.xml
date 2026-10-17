@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">ALISE</string>
+    <string name="accessibility_service_description">A.L.I.S.E. Neural HUD Interface for screen intelligence, cyber defense, and tactical automation.</string>
+    <string name="channel_hud_service_name">A.L.I.S.E. Obsidian Engine</string>
+    <string name="channel_hud_service_desc">Continuous neural protection and tactical telemetry monitoring.</string>
+</resources>

@@ -1,0 +1,57 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Outer Arc Ring -->
+    <path
+        android:pathData="M 54,26 A 28 28 0 1 1 53.9 26"
+        android:strokeColor="#00E5FF"
+        android:strokeWidth="2.5"
+        android:strokeLineCap="round" />
+    <!-- Segmented Inner Ring -->
+    <path
+        android:pathData="M 54,33 A 21 21 0 0 1 75,54"
+        android:strokeColor="#00B0FF"
+        android:strokeWidth="2" />
+    <path
+        android:pathData="M 75,54 A 21 21 0 0 1 54,75"
+        android:strokeColor="#00E5FF"
+        android:strokeWidth="2" />
+    <path
+        android:pathData="M 54,75 A 21 21 0 0 1 33,54"
+        android:strokeColor="#00B0FF"
+        android:strokeWidth="2" />
+    <path
+        android:pathData="M 33,54 A 21 21 0 0 1 54,33"
+        android:strokeColor="#00E5FF"
+        android:strokeWidth="2" />
+
+    <!-- Center Reactor Core Triangle / Ring -->
+    <path
+        android:pathData="M 54,42 L 64,59 L 44,59 Z"
+        android:fillColor="#1500E5FF"
+        android:strokeColor="#00E5FF"
+        android:strokeWidth="2"
+        android:strokeLineJoin="round" />
+
+    <!-- Core Glowing Nucleus -->
+    <path
+        android:pathData="M 54,49 A 5 5 0 1 1 53.9 49"
+        android:fillColor="#00E5FF" />
+    <path
+        android:pathData="M 54,51 A 3 3 0 1 1 53.9 51"
+        android:fillColor="#FFFFFF" />
+
+    <!-- Arc Segment Radials -->
+    <path
+        android:pathData="M 54,24 L 54,31 M 54,77 L 54,84 M 24,54 L 31,54 M 77,54 L 84,54"
+        android:strokeColor="#FFD700"
+        android:strokeWidth="2"
+        android:strokeLineCap="round" />
+    <!-- Diagonal tick nodes -->
+    <path
+        android:pathData="M 33,33 L 38,38 M 75,33 L 70,38 M 33,75 L 38,70 M 75,75 L 70,70"
+        android:strokeColor="#00E5FF"
+        android:strokeWidth="1.5" />
+</vector>

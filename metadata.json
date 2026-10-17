@@ -1,0 +1,8 @@
+{
+  "name": "ALICE",
+  "description": "Native Android AI Assistant for Ian Gallagher on Samsung Galaxy S25 with holographic HUD, voice commands, protocols, vision and device telemetry.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
